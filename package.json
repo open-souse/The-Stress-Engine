@@ -1,6 +1,6 @@
 {
   "name": "the-stress-engine",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "High-performance stress testing engine for Fintech payment adapters.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
