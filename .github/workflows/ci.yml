@@ -8,7 +8,7 @@ on:
 
 jobs:
   audit-and-test:
-    uses: Fort-Knox/cicd-standards/.github/workflows/node-standard.yml@main
+    uses: open-souse/cicd-standards/.github/workflows/node-standard.yml@main
     with:
       node-version: '20'
       test-command: 'npm test'
