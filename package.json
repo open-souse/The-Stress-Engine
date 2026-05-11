@@ -1,0 +1,38 @@
+{
+  "name": "the-stress-engine",
+  "version": "1.0.0",
+  "description": "High-performance stress testing engine for Fintech payment adapters.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "stress": "ts-node src/index.ts --stress"
+  },
+  "bin": {
+    "the-stress-engine": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "axios": "^1.16.0",
+    "chalk": "^5.6.2",
+    "cli-progress": "^3.12.0",
+    "cli-table3": "^0.6.5",
+    "express": "^5.2.1",
+    "ora": "^9.4.0"
+  }
+}

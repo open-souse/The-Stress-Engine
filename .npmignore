@@ -1,0 +1,15 @@
+# Excluir archivos de desarrollo y auditoría del paquete NPM
+src/
+tests/
+reports/
+node_modules/
+tsconfig.json
+vitest.config.ts
+
+AUDIT_REPORT_PHASE_1.md
+AUDIT_REPORT_PHASE_2.md
+AUDIT_REPORT_PHASE_3.md
+BITACORA_AVANCES.md
+PLAN_MAESTRO.md
+CERTIFICADO_MAESTRO.md
+README.md (incluir explícitamente en package.json si es necesario)

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+reports/
+.env
+
+# Auditoría y Bitácora (Excluidos por petición del usuario)
+AUDIT_REPORT_PHASE_1.md
+AUDIT_REPORT_PHASE_2.md
+AUDIT_REPORT_PHASE_3.md
+BITACORA_AVANCES.md
+PLAN_MAESTRO.md
+CERTIFICADO_MAESTRO.md
