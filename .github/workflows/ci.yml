@@ -13,4 +13,4 @@ jobs:
       node-version: '20'
       test-command: 'npm test'
     secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      NPM_TOKEN: ${{ secrets.FORT_KNOX_AUTOMATION }}
