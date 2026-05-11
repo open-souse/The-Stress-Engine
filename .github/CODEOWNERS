@@ -1,0 +1,12 @@
+# 🛡️ CODE OWNERS - FORT KNOX
+# Este archivo define quién debe aprobar cambios en archivos críticos.
+
+# Edwin Terencio Realpe Preciado es el dueño de todo el repositorio
+*       @edwinreal
+
+# El motor criptográfico requiere revisión obligatoria
+/src/crypto.ts  @edwinreal
+/src/vault.ts   @edwinreal
+
+# El orquestador multihilo
+/src/orchestrator.ts @edwinreal
